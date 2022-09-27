@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #ffffff;
+    height: 80px;
+    line-height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.navbar img{
+    width: 15%;
+}
+.menu a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    padding-left: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ff9800;
+}
+.menu a.active{
+    color: #ff9800;
+}
